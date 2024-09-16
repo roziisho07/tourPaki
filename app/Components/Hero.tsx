@@ -5,7 +5,7 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 // import logo from "@/Imgs/detailed-travel-logo.png";
-import bgImage from "@/Imgs/bgImage.jpg"
+import bgImage from "@/Imgs/bgImage.jpg";
 // import Image from "next/image";
 
 const navigation = [
@@ -132,16 +132,16 @@ export default function Hero() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem] "
           />
           <Image
-                src={bgImage}
-                alt=""
-                layout="fill"
-                style={{ objectFit: "cover" }}
-                priority
-              />
+            src={bgImage}
+            alt=""
+            layout="fill"
+            style={{ objectFit: "cover" }}
+            priority
+          />
         </div>
-        <div className="mx-auto max-w-2xl py-2 sm:py-48 lg:py-36 ">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-36 ">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-white ring-1 bg-slate-800 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our latest tours.{" "}
               <a href="#" className="font-semibold text-indigo-200">
                 <span aria-hidden="true" className="absolute inset-0" />
@@ -161,7 +161,7 @@ export default function Hero() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Get started
               </a>
